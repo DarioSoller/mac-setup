@@ -96,9 +96,9 @@ xcode-select --install      #xcode command line tool
 #
 ssh -v 			# check ssh install and version
 ls -a ~/.ssh 	# check for existing ssh indentity
-ssh-keygen		# ssh key generator starten
+ssh-keygen -t ed25519		# ssh key generator start with the more secure SSH type ED25519
 ls -a ~/.ssh 	# check for new ssh indentity files
-pbcopy < ~/.ssh/id_rsa.pub 		# copy public key for saving it on the git server
+pbcopy < ~/.ssh/id_ed25519.pub		# copy public key for saving it on the git server
 read -p "Your Public SSH Key is copied to the clipboard. Please save it in your account of your git server. Press [Enter] key to start continue Mac Setup Script..."
 
 
@@ -139,6 +139,18 @@ brew install node
 #brew install yarn
 brew install caskroom/cask/brew-cask
 brew doctor
+
+
+
+############################
+# Kubernetes & AWS
+#
+brew install kubernetes-cli
+kubectl version
+brew install aws-iam-authenticator
+aws-iam-authenticator help
+brew install awscli
+#aws configure
 
 
 
