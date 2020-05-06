@@ -217,39 +217,51 @@ npm install -g eclint
 #brew cask install jdownloader
 #brew cask install vox
 #brew cask install flux
-#brew cask install xmind
 #brew cask install trim-enabler
 #brew cask install sequel-pro
 #brew cask install vlc
 #brew cask install audacity
 #brew cask install vagrant
 #brew cask install vagrant-manager
-#brew cask install gimp
-#brew cask install thunderbird
 #brew cask install virtualbox
-#brew cask install openoffice
+#brew cask install java
+#brew cask install mamp
+#brew cask install sourcetree
+#brew cask install sketch
+#brew cask install dropbox
+#brew cask install microsoft-office
+#brew cask install phpstorm
+#brew cask install skype
+#brew cask install ccleaner
+#brew cask install adobe-creative-cloud
 
 
 #
 # Used Cask Packages
 #
-brew cask install java
-brew cask install mamp
+
 brew cask install google-chrome
 brew cask install firefox
 brew cask install filezilla
-brew cask install sourcetree
-brew cask install sketch
-brew cask install dropbox
-brew cask install microsoft-office
+brew cask install thunderbird
 brew cask install toggldesktop
 brew cask install sublime-text
-brew cask install phpstorm
-brew cask install skype
 brew cask install keepassx
-brew cask install ccleaner
-brew cask install adobe-reader
-brew cask install adobe-creative-cloud
+brew cask install adobe-acrobat-reader
+brew cask install openoffice
+brew cask install xmind
+brew cask install gimp
+brew cask install docker
+brew cask install kitematic
+brew cask install disk-inventory-x
+brew cask install spotify
+brew cask install vox
+brew cask install postman
+brew cask install iterm2
+brew cask install slack
+brew cask install visual-studio-code
+brew cask install fork
+
 
 
 
